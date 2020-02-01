@@ -55,6 +55,6 @@ function timeElapse(date){
 	if (seconds < 10) {
 		seconds = "0" + seconds;
 	}
-	var result = "Forever, Forever, Forever!!!"; 
+	var result = "<h1>Forever,Forever,Forever!!!</h1>"; 
 	$("#clock").html(result);
 }
